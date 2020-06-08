@@ -1,10 +1,10 @@
-
 <%- include("partials/header"); -%>
-    <p> <%= startingContent %> </p>
+
+<h1>Hello <%= user %>,</h1>
 
 
-  <%  posts.forEach(function(post){ %>
-    <h3><%=post.creator%></h3>
+<%  posts.forEach(function(post){ %>
+
     <h4><%=post.title%></h4>
     <p>
     <%=post.content.substring(0, 100) + " ..."%>
@@ -13,8 +13,6 @@
 
 
     <% }) %>
-
-    <a href="/compose" class="btn btn-info btn-lg butn">Compose</a>
 
 
 <%- include("partials/footer"); -%>

@@ -50,3 +50,18 @@ html {
 	font-size: 12px;
   color: #fff;
 }
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+h1{
+  padding-bottom: 5%;
+  font-family: Arial;
+}
